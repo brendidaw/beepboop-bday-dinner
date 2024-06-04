@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      div {width: 120px; margin: auto; display: flex; justify-content: space-between;}
+    </style>
+    <title>Just For You &#129505</title>
+  </head>
+  <body style="text-align: center">
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzJrZmZjZ2FjMmlzbXpsc3hpNDZleGZxdmJwOTVqOGlxNmp2ZTI2NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/5pUyv0ls4mZRSahLBK/giphy.webp" alt="cute" style="height: 280px" />
+    <h1>Helo seng, I've made a reservation at beeeeeeep</h1>
+    <h2>on June 9th , 6:30 pm</h2>
+    <div>
+      <button onclick="YES()">YES</button>
+      <button onmouseover="NOPE(this)">NOPE</button>
+    </div>
+    <script>
+      function YES() {
+        alert("See u Willi Seng");
+        alert("Message me on WA, I'll tell you the details");
+
+        location.assign("https://wa.me/6281316888779?text=Hellow%2C%20I%20want%20to%20confirm%20the%20dinner%20plans%20with%20Enda%20pweaseeeeee%3C3%20");
+      }
+      function NOPE(ini) {
+        ini.style.position = "absolute";
+        ini.style.left = `${Math.floor(Math.random() * 90)}%`;
+        ini.style.top = `${Math.floor(Math.random() * 90)}%`;
+      }
+    </script>
+  </body>
+</html>
